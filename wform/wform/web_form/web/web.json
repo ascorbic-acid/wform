@@ -1,0 +1,102 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 1, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "amount_based_on_field": 0, 
+ "creation": "2019-01-08 20:45:32.088834", 
+ "currency": "LYD", 
+ "doc_type": "wformdata", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "introduction_text": "WebForm Customization app <br>", 
+ "is_standard": 1, 
+ "login_required": 1, 
+ "max_attachment_size": 0, 
+ "modified": "2019-01-11 11:31:40.293928", 
+ "modified_by": "Administrator", 
+ "module": "Wform", 
+ "name": "web", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "web", 
+ "show_sidebar": 1, 
+ "sidebar_items": [], 
+ "success_url": "/web", 
+ "title": "web", 
+ "web_form_fields": [
+  {
+   "fieldtype": "Select", 
+   "hidden": 0, 
+   "label": "Status", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Open\nCompleted", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "label": "Supplier", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Supplier", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "label": "Contact", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Contact", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "text_1", 
+   "fieldtype": "Text", 
+   "hidden": 0, 
+   "label": "Description", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }
+ ]
+}
